@@ -22,9 +22,5 @@ def save_picture(picture):
     """
     Функция проверяет и сохраняет изображение в папку загрузок.
     """
-    allowed_type = ['img', 'png', 'gif', 'jpeg']
-    picture_type = picture.filename.split('.')[-1]
-    if picture_type not in allowed_type:
-        raise WrongImgType(f'Неверный формат изображения. Допустимые форматв: {allowed_type}')
     picture_way = f'{UPLOAD_FOLDER}/{picture.filename}'
     picture.save(picture_way)

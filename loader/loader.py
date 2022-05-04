@@ -23,6 +23,11 @@ def page_new_post():
     if not picture or not content:
         logging.info('Отсутствует часть данных')
         return 'Отсутствует часть данных'
+    allowed_type = ['img', 'png', 'gif', 'jpeg', 'jpg']
+    picture_type = picture.filename.split('.')[-1]
+    if picture_type not in allowed_type:
+        logging.info('Неверный тип файла')
+        return f'Не верный тип файла. Допустимые форматы: {allowed_type}'
     logging.info('Добaвляется пост')
     posts_list = get_posts_from_json(POST_PATH)
     try:
