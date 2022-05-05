@@ -1,0 +1,27 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:10] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Добaвляется пост
+INFO:root:Пост добавлен
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:29] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:29] "GET /uploads/images/enot.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:45] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:13:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Добaвляется пост
+INFO:root:Пост добавлен
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:00] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:00] "GET /uploads/images/cat.png HTTP/1.1" 200 -
+INFO:root:Открытие главной страницы
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняется поиск.
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:11] "GET /search?s=Кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:12] "[36mGET /uploads/images/cat.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 06:14:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
